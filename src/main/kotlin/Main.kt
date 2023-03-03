@@ -25,7 +25,7 @@ fun main(args: Array<String>) {
 //        }
 //    }.start(wait = true)
     embeddedServer(GRpc, configure = {
-        port = 7777
+        port = 8888
         serverConfigurer = {
             addService(X())
         }
